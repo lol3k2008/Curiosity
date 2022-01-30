@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('photo/Background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+}
+
+.current-time{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+font-weight: bold;
+}
+
+.card{
+padding: 30px;
+    min-height: 250px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    border-bottom: 1px solid rgba(97, 84, 84, 0.226);
+}
+.date{
+    padding: 10px;
+    font-weight: bold;
+}
+h1{
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(97, 84, 84, 0.226);
+    font-size: 27px;
+}
